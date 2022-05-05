@@ -5,7 +5,7 @@ import (
 	"encoding/gob"
 	"fmt"
 	"net"
-	"network_test/message"
+	"security-class-practice/message"
 )
 
 func send(conn net.Conn) {

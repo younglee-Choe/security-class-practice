@@ -7,7 +7,7 @@ import (
 	"io"
 	"log"
 	"net"
-	"network_test/message"
+	"security-class-practice/message"
 	"time"
 )
 
