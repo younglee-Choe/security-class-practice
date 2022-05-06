@@ -28,7 +28,7 @@ func send(conn net.Conn) {
 }
 
 func recv(conn net.Conn) {
-	tmp := make([]byte, 500)
+	tmp := make([]byte, 72)
 	conn.Read(tmp)
 
 	tmpbuff := bytes.NewBuffer(tmp)
